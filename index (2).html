@@ -91,14 +91,14 @@
       top: -150px; right: -150px; pointer-events: none;
     }
     .scroll-hint {
-      position: absolute; bottom: 50px; left: 56px;
+      position: absolute; bottom: 32px; left: 56px;
       display: flex; align-items: center; gap: 12px;
     }
     .scroll-hint span { font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); }
     .scroll-line {
-      width: 40px; height: 3px;
+      width: 40px; height: 1px;
       background: linear-gradient(to right, var(--gold), transparent);
-      animation: scrollPulse 1s ease infinite;
+      animation: scrollPulse 2s ease infinite;
     }
     @keyframes scrollPulse { 0%,100%{opacity:0.3;} 50%{opacity:1;} }
 
